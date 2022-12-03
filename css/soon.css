@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    position: relative;
+    width: 99%;
+    height: 600px;
+    background: rgba(49, 44, 44, 1);
+    color: #FFFFFF;
+    font-size: 100%;
+}
+body::-webkit-scrollbar {
+    width: 5px;               
+}
+  
+body::-webkit-scrollbar-track {
+    background:  rgba(49, 44, 44, 1);       
+} 
+  
+body::-webkit-scrollbar-thumb {
+    background-color: white;   
+    border-radius: 5px;       
+}
+.main-text{
+    position: absolute;
+    padding: 270px 100px 100px 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+
+    color: #FFFFFF;
+    z-index: 2;
+}
+.psk{
+    position: absolute;
+    height: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2px;
+    line-height: 40px;
+    text-align: left;
+
+    color: #555555;
+}

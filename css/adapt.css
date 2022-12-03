@@ -1,0 +1,357 @@
+/* Large Devices */
+@media only screen and (max-width: 1200px) {
+    header .h1-text {
+        top: 15px;
+        font-size: 40px;
+        left: 40px;
+    }
+    header .logo{
+        width: 4%;
+    }
+    header .head-main{
+        font-size: 50px;
+    }
+    header .head-low{
+        font-size: 20px;
+    }
+    /* nav .main-text{ 
+
+    }
+    */
+    footer .foot1{
+        font-size: 19px;
+    }
+    footer .foot2{
+        font-size: 25px;
+    }
+}
+/* Medium Devices */
+@media only screen and (max-width: 992px) {
+    body {
+        height: 3200px;
+    }
+    header .h1-text {
+        top: 35px;
+        font-size: 70px;
+        left: 160px;
+    }
+    header .logo{
+        width: 7%;
+        transform: translate(0px,30%);
+    }
+    header .line{
+        top: 140px;
+    }
+    header .arrow-btn{
+        position: relative;
+        top: 47px;
+        width: 10%;
+        height: 50px;
+        
+
+    }
+    header .head-main{
+        top: 300px;
+        font-size: 100px;
+        line-height: 100px;
+        left: 140px;
+        justify-content: center;
+        text-align: center;
+        transform: translate(0px,10%);
+    }
+    header .head-low{
+        top: 630px;
+        font-size: 35px;
+        text-align: center;
+        color: #cfcece;
+        left: 170px;
+        transform: translate(0px,20%);
+    }
+    header .container_slider_css{
+        width: 0;
+        height: 0;
+    }
+    nav .main-text{ 
+        font-size: 40px;
+        width: 50%;
+        height: 2.1%;
+        top: 920px;
+        left: 330px;
+    }
+    #square1{
+        width: 40%;
+        height: 320px;
+    }
+    nav .text1{
+        font-size: 26px;
+        top: 15px;
+        left: 23px;
+    }
+    #square2{
+        left: 700px;
+        width: 40%;
+        height: 320px;
+    }
+
+    nav .text2{
+        font-size: 28px;
+        top: 40px;
+        left: 50px;
+    }
+    nav .s-photo1{
+        top: 180px;
+        width: 0;
+
+    }
+
+    #square3{
+        left: 100px;
+        top: 1500px;
+        width: 40%;
+        height: 320px;
+    }
+
+    nav .text3{
+        font-size: 26px;
+        top: 3px;
+        left: 50px;
+    }
+
+    #square4{
+        left: 700px;
+        top: 1500px;
+        width: 40%;
+        height: 320px;
+    }
+
+    nav .text4{
+        font-size: 28px;
+        top: 60px;
+        left: 50px;
+    }
+    nav .s-photo2{
+        width: 0%;
+    }
+    p.links-text{
+        top: 1000px;
+    }
+    button.download{
+        top: 950px;
+    }
+    .download{
+        box-shadow: 0 0 10px #ffffff;
+        transition-delay: 0.8s;
+    }
+    button.apply{
+        top: 1025px;
+        left: 40px;
+    }
+    .apply{
+        box-shadow: 0 0 10px #ffffff;
+        transition-delay: 0.8s;
+    }
+    button.add-server{
+        top: 1099px;
+    }
+    .add-server{
+        box-shadow: 0 0 10px #ffffff;
+        transition-delay: 0.8s;
+    }
+    
+    footer .line2{
+        top: 2800px;
+    }
+    footer .foot1{
+        top: 2900px;
+        text-align: center;
+        left: 230px;
+        font-size: 30px;
+    }
+    footer .foot2{
+        top: 3050px;
+        font-size: 35px;
+        left: 550px;
+    }
+    footer .foot-link{
+        left: 630px;
+        font-size: 20px;
+        top: 3100px;
+    }
+}
+
+
+
+/* Extra Small Devices */
+@media only screen and (max-width: 480px) {
+    body {
+        height: 8000px;
+    }
+    header .h1-text {
+        top: 35px;
+        font-size: 90px;
+        left: 180px;
+    }
+    header .logo{
+        width: 7%;
+        transform: translate(0px,30%);
+    }
+    header .line{
+        top: 140px;
+    }
+    header .arrow-btn{
+        top: 47px;
+        width: 10%;
+
+    }
+    header .head-main{
+        top: 400px;
+        font-size: 110px;
+        line-height: 100px;
+        left: 80px;
+        justify-content: center;
+        text-align: center;
+        transform: translate(0px,10%);
+    }
+    header .head-low{
+        top: 800px;
+        font-size: 45px;
+        text-align: center;
+        color: #cfcece;
+        left: 50px;
+        transform: translate(0px,20%);
+    }
+    header .container_slider_css{
+        width: 0;
+        height: 0;
+    }
+    nav .main-text{ 
+        font-size: 45px;
+        width: 55%;
+        height: 0.8%;
+        top: 1200px;
+        left: 320px;
+    }
+    #square1{
+        left: 150px;
+        width: 80%;
+        height: 800px;
+        top: 1400px;
+    }
+    nav .text1{
+        font-size: 50px;
+        line-height: 80px;
+        top: 70px;
+        left: 50px;
+    }
+    #square2{
+        left: 150px;
+        width: 80%;
+        height: 800px;
+        top: 2400px;
+    }
+
+    nav .text2{
+        font-size: 50px;
+        top: 10px;
+        left: 100px;
+        line-height: 80px;
+    }
+    nav .s-photo1{
+        left: 200px;
+        top: 380px;
+        width: 65%;
+    }
+
+    #square3{
+        left: 150px;
+        width: 80%;
+        height: 800px;
+        top: 3400px;
+    }
+
+    nav .text3{
+        font-size: 50px;
+        top: 70px;
+        left: 100px;
+        line-height: 80px;
+    }
+
+    #square4{
+        left: 150px;
+        width: 80%;
+        height: 800px;
+        top: 4400px;
+    }
+
+    nav .text4{
+        font-size: 50px;
+        top: 40px;
+        left: 130px;
+        line-height: 80px;
+    }
+    nav .s-photo2{
+        width: 65%;
+        top: 380px;
+        left: 200px;
+    }
+    p.links-text{
+        left: -75%;
+        top: 4600px;
+        font-size: 50px;
+        width: 900px;
+        height: 70px;
+    }
+    button.download{
+        top: 4500px;
+        left: -20%;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .download{
+        box-shadow: 0 0 20px #ffffff;
+        transition-delay: 0.8s;
+    }
+    button.apply{
+        top: 5000px;
+        width: 540px;
+        height: 150px;
+        left: -20%;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .apply{
+        box-shadow: 0 0 20px #ffffff;
+        transition-delay: 0.8s;
+    }
+    button.add-server{
+        top: 5500px;
+        width: 540px;
+        left: -20%;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .add-server{
+        box-shadow: 0 0 20px #ffffff;
+        transition-delay: 0.8s;
+    }
+    
+    footer .line2{
+        top: 7500px;
+    }
+    footer .foot1{
+        top: 7600px;
+        text-align: center;
+        left: 50px;
+        font-size: 42px;
+    }
+    footer .foot2{
+        top: 7800px;
+        font-size: 55px;
+        left: 470px;
+    }
+    footer .foot-link{
+        font-size: 40px;
+        left: 550px;
+        top: 7890px;
+    }
+}
